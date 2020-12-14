@@ -9,7 +9,8 @@
     "lint": "eslint src --max-warnings=0",
     "test": "jest",
     "test:watch": "jest --watch",
-    "generate": "yarn plop --plopfile ./generators/plopfile.js",
+    "generate-components": "yarn plop --plopfile ./generators/plopfile.js component",
+    "generate-templates": "yarn plop --plopfile ./generators/plopfile.js template",
     "storybook": "start-storybook -s ./public -p 6006",
     "build-storybook": "build-storybook -s ./public"
   },
