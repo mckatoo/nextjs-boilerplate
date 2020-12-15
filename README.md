@@ -4,12 +4,12 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+How to use this boilerplate:
 
 ```bash
-npm run dev
+npx create-next-app -e https://github.com/mckatoo/nextjs-boilerplate your-project
 # or
-yarn dev
+yarn create next-app -e https://github.com/mckatoo/nextjs-boilerplate your-project
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
