@@ -21,7 +21,7 @@ const GlobalStyles: GlobalStyleComponent<
     src: local('Poppins Light'), local('Poppins-Light'),
          url('/fonts/poppins-v12-latin-300.woff2') format('woff2')
   }
-  
+
   @font-face {
     font-family: 'Poppins';
     font-style: normal;
@@ -30,7 +30,7 @@ const GlobalStyles: GlobalStyleComponent<
     src: local('Poppins Regular'), local('Poppins-Regular'),
          url('/fonts/poppins-v12-latin-regular.woff2') format('woff2')
   }
-  
+
   @font-face {
     font-family: 'Poppins';
     font-style: normal;
@@ -48,7 +48,7 @@ const GlobalStyles: GlobalStyleComponent<
     -moz-osx-font-smoothing: grayscale;
 
     &::before,
-    &::after, {
+    &::after {
       box-sizing: inherit;
     }
   }
