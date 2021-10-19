@@ -2,23 +2,32 @@ import '../.jest/next-image.mock'
 import { ThemeProvider } from 'styled-components'
 import GlobalStyles from 'styles/global'
 import theme from 'styles/theme'
-
-addDecorator(withNextRouter())
+import { RouterContext } from "next/dist/shared/lib/router-context"
 
 export const parameters = {
+  nextRouter: {
+    Provider: RouterContext.Provider,
+  },
   backgrounds: {
-    default: 'ikatoo-light',
+    default: 'light',
     values: [
       {
-        name: 'ikatoo-light',
+        name: 'light',
         value: theme.colors.white
       },
       {
-        name: 'ikatoo-dark',
+        name: 'dark',
         value: theme.colors.mainBg
       }
     ]
-  }
+  },
+  actions: { argTypesRegex: "^on[A-Z].*" },
+  controls: {
+    matchers: {
+      color: /(background|color)$/i,
+      date: /Date$/,
+    },
+  },
 }
 
 export const decorators = [
