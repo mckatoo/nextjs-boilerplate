@@ -58,7 +58,7 @@
     "@typescript-eslint/eslint-plugin": "^5.26.0",
     "@typescript-eslint/parser": "^5.26.0",
     "babel-loader": "^8.2.3",
-    "babel-plugin-styled-components": "^2.0.6",
+    "babel-plugin-styled-components": "^2.0.7",
     "commitizen": "^4.2.3",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.16.0",
