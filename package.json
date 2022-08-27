@@ -38,7 +38,7 @@
     "next-pwa": "^5.5.5",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "styled-components": "^5.2.3"
+    "styled-components": "^5.3.5"
   },
   "devDependencies": {
     "@babel/core": "^7.18.10",
@@ -54,7 +54,7 @@
     "@types/jest": "^27.4.1",
     "@types/node": "^18.7.9",
     "@types/react": "^17.0.43",
-    "@types/styled-components": "^5.1.23",
+    "@types/styled-components": "^5.1.26",
     "@typescript-eslint/eslint-plugin": "^5.35.1",
     "@typescript-eslint/parser": "^5.35.1",
     "babel-loader": "^8.2.3",
